@@ -21,14 +21,14 @@ data = {
         "Lê Thảo Nguyên",
         "Võ Thanh Tùng",
         "Bùi Phương Thảo",
-        "Đặng Hoàng Phúc",
-        "Đỗ Ngọc Hân",
-        "Huỳnh Tuấn Anh",
-        "Mai Bảo Châu"
+        "Trần Thị Thanh An",
+        "Lê Thị Ngọc Nhi",
+        "Hàng Võ Khánh Ngân",
+        "Nông Nguyễn Ái Nhi"
     ],
-    "Chuyen_can": [8, 9, 7, 10, 6, 8, 9, 7, 10, 8],
-    "Giua_ky": [7, 9, 6, 8, 5, 7, 8, 9, 7, 10],
-    "Cuoi_ky": [8, 10, 5, 9, 6, 8, 9, 8, 9, 9]
+    "chuyen_can": [4,6,8,5,8,7,9,9,9,9],
+    "Giua_ky": [5,9,5,6,6,8,7,10,7,10],
+    "Cuoi_ky": [5,7,7,5,8,7,9,10,9,9]
 }
 
 df = pd.DataFrame(data)
