@@ -12,9 +12,12 @@ st.set_page_config(
     layout="wide"
 )
 
+# Tiêu đề
+st.title("📚 QUẢN LÝ ĐIỂM SINH VIÊN")
+
 # Tao du lieu 10 sinh vien
 data = {
-    "Ho_va_ten": [
+    "Ho_ten": [
         "Phạm Gia Huy",
         "Nguyễn Khánh Linh",
         "Trần Minh Quân",
@@ -27,8 +30,8 @@ data = {
         "Nông Nguyễn Ái Nhi"
     ],
     "chuyen_can": [4,6,8,5,8,7,9,9,9,9],
-    "Giua_ky": [5,9,5,6,6,8,7,10,7,10],
-    "Cuoi_ky": [5,7,7,5,8,7,9,10,9,9]
+    "Giua_ky":    [5,9,5,6,6,8,7,10,7,10],
+    "Cuoi_ky":    [5,7,7,5,8,7,9,10,9,9]
 }
 
 df = pd.DataFrame(data)
