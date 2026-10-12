@@ -17,7 +17,7 @@ st.title("📚 QUẢN LÝ ĐIỂM SINH VIÊN")
 
 # Tao du lieu 10 sinh vien
 data = {
-    "Ho_ten": [
+    "Ho_va_ten": [
         "Phạm Gia Huy",
         "Nguyễn Khánh Linh",
         "Trần Minh Quân",
